@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "684171673146",
+    "project_id": "autoesculaapp",
+    "storage_bucket": "autoesculaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684171673146:android:7bb4187d8e0c7adf6ebf03",
+        "android_client_info": {
+          "package_name": "com.example.profesor_autoescuela_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzQKZeQQdhFerm8L_SF3mEV0HW-Gj337s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
