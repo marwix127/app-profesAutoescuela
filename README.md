@@ -1,38 +1,39 @@
-# App profesores autónomos de autoescuela 👨🏻‍🏫🚙
-Este es un proyecto en desarrollo para crear una app que facilite y ayude en la gestión de un profesor de autoescuela.
+# Driving School Freelance Instructor App 👨🏻‍🏫🚙
 
-## Tecnologías 
-- Esta aplicación se desarrolla en Flutter, un SDK para desarrollo de aplicaciones multiplataforma que utiliza el lenguaje Dart. Esta tecnología creada por Google se basa en widgets.
-- Utiliza un sistema de autenticación y de base de datos implementado con Firebase, y una base de datos local SQL.
+This is a project under development to create an app that facilitates and assists in the management of a driving school instructor.
 
-## Instalación del proyecto
-### Descargas previas
-  - Editor de código [VS Code](https://code.visualstudio.com/) (Recomendado)
+## Technologies
+- This application is developed in Flutter, an SDK for cross-platform application development that uses the Dart language. This technology, created by Google, is based on widgets.
+- It uses an authentication system and a database implemented with Firebase, along with a local SQL database.
+
+## Project Installation
+### Prerequisite Downloads
+  - Code editor [VS Code](https://code.visualstudio.com/) (Recommended)
   - [Flutter](https://docs.flutter.dev/get-started/install)
-  - Emulador Android ([Android Studio](https://developer.android.com/studio?hl=es-419)) o IOS ([XCode](https://apps.apple.com/es/app/xcode/id497799835?mt=12))
+  - Android Emulator ([Android Studio](https://developer.android.com/studio?hl=en)) or iOS Emulator ([XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12))
   
-### Instalaciones
-#### Se recomienda seguir los pasos e instrucciones de la pagina oficial de Flutter para configurar correctamente el editor de código y los emuladores
-- Al terminar la instalación de [Flutter](https://docs.flutter.dev/get-started/install) se aconseja ejecutar el comando "flutter doctor" para verificar que las instalaciones se han hecho correctamente.
-- Para desarrollar [Flutter](https://docs.flutter.dev/get-started/install) en [VS Code](https://code.visualstudio.com/) vamos a necesitar almenos dos extensiones que son obligatorias: [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) y [Flutter (Extension)](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter). Estas se integran en el entorno de desarrollo.
-- Estas extensiones son opcionales, pero pueden ser útiles en proyectos Flutter: [Lista Extensiones](#extensiones-de-vscode)
-- Abrir el proyecto en VS Code
-- Mediante la terminal ejecutar el comando "flutter pub get"
-- Pulsar F1 y pulsar [Flutter:Select Device] y podremos seleccionar un dispositivo físico conectado o un dispositivo emulado que hayamos configurado. Ver [Ejecutar aplicación en Dispositivos](#ejecutar-aplicación-en-dispositivos)
-- Ejecutar la aplicación con F5 o el comando "flutter run"
+### Installation Steps
+#### It is recommended to follow the steps and instructions from Flutter's official page to properly configure the code editor and emulators.
+- After installing [Flutter](https://docs.flutter.dev/get-started/install), it is advised to run the command "flutter doctor" to verify that the installation was successful.
+- To develop with [Flutter](https://docs.flutter.dev/get-started/install) in [VS Code](https://code.visualstudio.com/), at least two extensions are required: [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) and [Flutter (Extension)](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter). These integrate into the development environment.
+- These extensions are optional but can be useful in Flutter projects: [Extension List](#vscode-extensions)
+- Open the project in VS Code
+- In the terminal, execute the command "flutter pub get"
+- Press F1 and select [Flutter: Select Device] to choose a connected physical device or a configured virtual device. See [Run Application on Devices](#run-application-on-devices)
+- Run the application with F5 or the command "flutter run"
 
-### Ejecutar aplicación en Dispositivos
-## Dispositivos Android
- - Dispositivos Físicos: Conectar el dispositivo al ordenador y tener activada la depuración USB (Para activarlo por primera vez es necesario Activar las opciones de desarrollador)
- - Dispositivos virtuales: Mediante Android Studio, en las opciones de Virtual Device Manager, crear un dispositivo virtual con las características deseadas. (Se recomienda asignar 4GB RAM mínimo y ser todo lo generoso que se pueda con el espacio de almacenamiento). Si el dispositivo virtual esta corriendo, ya sera visible a la hora de seleccionar dispositivo.
+### Run Application on Devices
+## Android Devices
+ - **Physical Devices**: Connect the device to the computer and enable USB debugging (To activate it for the first time, Developer Options must be enabled).
+ - **Virtual Devices**: In Android Studio, under the Virtual Device Manager options, create a virtual device with the desired specifications. (It is recommended to allocate at least 4GB RAM and as much storage space as possible). If the virtual device is running, it will be visible when selecting a device.
 
-## Dispositivos iOS
-- Dispositivos Físicos: Conectar el dispositivo iOS al ordenador. Es necesario tener un Apple ID registrado y un dispositivo confiable. También, debes configurar el dispositivo para desarrollo en Xcode.
-- Simuladores iOS: En Xcode, puedes seleccionar un simulador de iOS para ejecutar tu aplicación. Elige el simulador en la lista de dispositivos disponibles en Xcode. Asegúrate de que el simulador tenga las configuraciones adecuadas según tus necesidades (tamaño de pantalla, versión de iOS, etc.).
+## iOS Devices
+- **Physical Devices**: Connect the iOS device to the computer. An Apple ID registered with a trusted device is required. Additionally, the device must be set up for development in Xcode.
+- **iOS Simulators**: In Xcode, you can select an iOS simulator to run your application. Choose the simulator from the list of available devices in Xcode. Ensure the simulator has the appropriate settings for your needs (screen size, iOS version, etc.).
 
-Ejecución: Una vez conectado el dispositivo físico o seleccionado el simulador, puedes ejecutar la aplicación desde VS Code seleccionando el dispositivo correspondiente. Usa el comando "flutter run" en la terminal o ejecuta la aplicación directamente desde VS Code.
+**Execution**: Once the physical device is connected or the simulator is selected, you can run the application from VS Code by selecting the corresponding device. Use the command "flutter run" in the terminal or run the application directly from VS Code.
 
-### Extensiones de VSCode
+### VSCode Extensions
 - Activitus Bar
 - Error Lens
 - Paste JSON as Code
@@ -43,4 +44,5 @@ Ejecución: Una vez conectado el dispositivo físico o seleccionado el simulador
 - Dart Language
 - Flutter Support
 - Pubspec Assist
-- Lorem ipsum
+- Lorem Ipsum
+
